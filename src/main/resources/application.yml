@@ -1,0 +1,9 @@
+keycloak:
+  auth-server-url: http://localhost:11080/auth
+  realm: my-realm
+  resource: my-service
+  ssl-required: external
+  use-resource-role-mappings: true
+  verify-token-audience: true
+  credentials:
+    secret: secret-uuid
